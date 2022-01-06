@@ -3,6 +3,9 @@ body{
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif; 
 }
+section{
+    margin-left: 5px;
+}
 .flexing-area{
     display: flex;
     
@@ -76,4 +79,26 @@ h2{
     background-position: right;
     background-size: 200px;
     background-repeat: no-repeat;
+
+}
+.corona-area{
+    padding: 7%;
+    padding-bottom: 200px;
+
+}
+.corona-area h1{
+    text-align: center
+}
+#corona-image{
+    margin-left: 5px;
+    height: 200px;
+    width: 400px;
+    background-image: url(images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white
 }
