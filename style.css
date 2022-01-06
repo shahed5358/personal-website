@@ -5,6 +5,7 @@ body{
 }
 section{
     margin-left: 5px;
+  
 }
 .flexing-area{
     display: flex;
@@ -23,7 +24,11 @@ h2{
 }
 .half-width img{
     width: 100%;
+    
 
+}
+#top-banner-image{
+    margin-top: -150px;
 }
 #border-area{
     border-left:5px solid salmon;
